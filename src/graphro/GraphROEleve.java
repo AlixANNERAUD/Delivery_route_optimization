@@ -41,11 +41,10 @@ public class GraphROEleve {
             List<Sommet> cheminOptimal = vdc.algoOptimisation(depart);
 
             // Affichage du chemin optimal
-            System.out.println("Chemin optimal : ");
+            System.out.printf("Chemin optimal (%d sommets) :\n", cheminOptimal.size());
             for (Sommet s : cheminOptimal) {
-                System.out.print(s.nom + " -> ");
+                System.out.printf("=> %s\n", s.nom);
             }
-            System.out.println("FIN");
 
         } catch (IOException e) {
             e.printStackTrace();
