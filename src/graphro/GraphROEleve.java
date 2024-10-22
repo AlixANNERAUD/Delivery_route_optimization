@@ -20,7 +20,7 @@ public class GraphROEleve {
     public static void main(String[] args) {
         try {
             // Lecture du graphe depuis le fichier
-            GrapheListe graphe = new GrapheListe("data/voyageur.txt");
+            GrapheListe graphe = new GrapheListe("data/graphe.txt");
 
             // Récupération du sommet de départ
             Sommet depart = null;
