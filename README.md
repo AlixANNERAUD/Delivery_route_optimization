@@ -115,6 +115,22 @@ graph BT
 - Rhombuses represent the intersections between streets.
 - The warehouse is represented by the "Dépot" rectangle.
 
+## 🏃‍♂️ Usage
+
+The code is located in the `Code` folder.
+
+To build the project, run the following command:
+
+```shell
+make
+```
+
+To run the project, you can use the following command:
+
+```shell
+make run
+```
+
 ## ℹ️ About
 
 This project was developed by:  
